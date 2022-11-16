@@ -1,0 +1,4423 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "nombre": "Administrador",
+      "apellido": "Sistema",
+      "username": "admin",
+      "password": "21232f297a57a5a743894a0e4a801fc3"
+    },
+    {
+      "id": 2,
+      "nombre": "Andrés",
+      "apellido": "Ortega",
+      "username": "andresmza",
+      "password": "21232f297a57a5a743894a0e4a801fc3"
+    },
+    {
+      "id": 3,
+      "nombre": "User",
+      "apellido": "UNO",
+      "username": "user1",
+      "password": "21232f297a57a5a743894a0e4a801fc3"
+    },
+    {
+      "id": 4,
+      "nombre": "Mariano",
+      "apellido": "García",
+      "username": "mgarcia",
+      "password": "21232f297a57a5a743894a0e4a801fc3"
+    }
+  ],
+  "usuario-login": [
+    {
+      "id": 1,
+      "idusuario": 4,
+      "nombre": "Mariano",
+      "apellido": "García",
+      "username": "admin",
+      "password": "admin",
+      "roles": [
+        {
+          "value": "Administrador",
+          "label": "Administrador"
+        },
+        {
+          "value": "ADO",
+          "label": "ADO"
+        },
+        {
+          "value": "Báscula",
+          "label": "Báscula"
+        },
+        {
+          "value": "Consultas",
+          "label": "Consultas"
+        },
+        {
+          "value": "Descargadero",
+          "label": "Descargadero"
+        },
+        {
+          "value": "Descargadero cruz de piedra",
+          "label": "Descargadero cruz de piedra"
+        },
+        {
+          "value": "Ingreso / Egreso",
+          "label": "Ingreso / Egreso"
+        },
+        {
+          "value": "Laboratorio",
+          "label": "Laboratorio"
+        }
+      ]
+    }
+  ],
+  "login": {
+    "idUsuario": 3,
+    "nombre": "Gabriel",
+    "apellido": "Simón"
+  },
+  "puestos": [
+    {
+      "idPuesto": 1,
+      "nombre": "Ingreso/Egreso",
+      "urlPrincipal": "Ingreso/Puesto_IE_Principal.aspx"
+    },
+    {
+      "idPuesto": 2,
+      "nombre": "Laboratorio",
+      "urlPrincipal": "Laboratorio/Puesto_Lab_Principal.aspx"
+    },
+    {
+      "idPuesto": 3,
+      "nombre": "Báscula",
+      "urlPrincipal": "Bascula/Puesto_Basc_Principal.aspx"
+    },
+    {
+      "idPuesto": 4,
+      "nombre": "Descargadero",
+      "urlPrincipal": "Descargadero/Puesto_Desc_Principal.aspx"
+    },
+    {
+      "idPuesto": 5,
+      "nombre": "ADO",
+      "urlPrincipal": "Energia/Puesto_Ener_Principal.aspx"
+    },
+    {
+      "idPuesto": 6,
+      "nombre": "Administrador",
+      "urlPrincipal": "Administrador/Adm_Principal.aspx"
+    },
+    {
+      "idPuesto": 7,
+      "nombre": "Consultas",
+      "urlPrincipal": "Visitante/Visitante_Principal.aspx"
+    },
+    {
+      "idPuesto": 8,
+      "nombre": "Descargadero Cruz de Piedra",
+      "urlPrincipal": "Descargadero/Puesto_Desc_Principal.aspx"
+    }
+  ],
+  "conductor": {
+    "idConductor": 30,
+    "dni": 27738015,
+    "idTransportista": 0,
+    "nombre": "GUSTAVO",
+    "apellido": "FUMAROLA"
+  },
+  "control": [
+    {
+      "idControl": 1,
+      "texto": "Existen precintos",
+      "idEtapa": 1,
+      "idTipoProducto": 1,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 1
+    },
+    {
+      "idControl": 2,
+      "texto": "Posee Catalizador/Arresta llamas",
+      "idEtapa": 1,
+      "idTipoProducto": 1,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 2
+    },
+    {
+      "idControl": 3,
+      "texto": "Posee matafuegos",
+      "idEtapa": 1,
+      "idTipoProducto": 1,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 3
+    },
+    {
+      "idControl": 6,
+      "texto": "Chofer posee vestimenta adecuada",
+      "idEtapa": 1,
+      "idTipoProducto": 1,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 4
+    },
+    {
+      "idControl": 7,
+      "texto": "Algún precinto violado",
+      "idEtapa": 1,
+      "idTipoProducto": 1,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "sí",
+      "orden": 5
+    },
+    {
+      "idControl": 8,
+      "texto": "Camión limpio antes de descarga",
+      "idEtapa": 1,
+      "idTipoProducto": 1,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 6
+    },
+    {
+      "idControl": 9,
+      "texto": "Transporta pasajeros",
+      "idEtapa": 1,
+      "idTipoProducto": 1,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "sí",
+      "orden": 7
+    },
+    {
+      "idControl": 4,
+      "texto": "Camión estanco (sin pérdidas)",
+      "idEtapa": 1,
+      "idTipoProducto": 1,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 8
+    },
+    {
+      "idControl": 10,
+      "texto": "Chofer calificado",
+      "idEtapa": 1,
+      "idTipoProducto": 1,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 9
+    },
+    {
+      "idControl": 11,
+      "texto": "Camión habilitado",
+      "idEtapa": 1,
+      "idTipoProducto": 1,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 10
+    }
+  ],
+  "destinatario": [
+    {
+      "idDestinatario": 1,
+      "nombre": "CTM",
+      "codigo": "CTM",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idDestinatario": 2,
+      "nombre": "CTM  - Cruz de Piedra",
+      "codigo": "CDP",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idDestinatario": 9,
+      "nombre": "dsdasd",
+      "codigo": "adad",
+      "cuit": "1",
+      "eliminado": 1
+    },
+    {
+      "idDestinatario": 10,
+      "nombre": "PETROQUIMICA CUYO",
+      "codigo": "PQC",
+      "cuit": "0-00000000-0",
+      "eliminado": 0
+    },
+    {
+      "idDestinatario": 8,
+      "nombre": "YPF Terminal LDC",
+      "codigo": "YPF",
+      "cuit": "1-11111111-1",
+      "eliminado": 0
+    }
+  ],
+  "producto": [
+    {
+      "idProducto": 22,
+      "nombre": "",
+      "codigo": "",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 19,
+      "nombre": "AC. SULFURICO",
+      "codigo": "ASO",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 31,
+      "nombre": "AMIANTO",
+      "codigo": "LLL",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 32,
+      "nombre": "AMIANTO",
+      "codigo": "OOO",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 35,
+      "nombre": "BATERIAS",
+      "codigo": "BST",
+      "idTipoProducto": 1
+    },
+    {
+      "idProducto": 36,
+      "nombre": "BATERIAS",
+      "codigo": "BAT",
+      "idTipoProducto": 1
+    },
+    {
+      "idProducto": 21,
+      "nombre": "BIODIESEL",
+      "codigo": "BD",
+      "idTipoProducto": 1
+    },
+    {
+      "idProducto": 16,
+      "nombre": "BOBINAS",
+      "codigo": "BOB",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 15,
+      "nombre": "DESPERD POLIPRO",
+      "codigo": "DPE",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 14,
+      "nombre": "ETILENO LIQUIDO",
+      "codigo": "ETL",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 26,
+      "nombre": "FILTROS",
+      "codigo": "FIL",
+      "idTipoProducto": 3
+    },
+    {
+      "idProducto": 3,
+      "nombre": "FUEL OIL",
+      "codigo": "FO",
+      "idTipoProducto": 1
+    },
+    {
+      "idProducto": 7,
+      "nombre": "GAS LICUADO PET",
+      "codigo": "LPG",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 4,
+      "nombre": "GAS OIL",
+      "codigo": "GO",
+      "idTipoProducto": 1
+    },
+    {
+      "idProducto": 28,
+      "nombre": "HIDROXIDO DE SODIO (Líquido)",
+      "codigo": "WWW",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 10,
+      "nombre": "MERCADERIAS VAR",
+      "codigo": "MEV",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 11,
+      "nombre": "MEZCLA P BACHES",
+      "codigo": "ASF",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 12,
+      "nombre": "NITROGENO",
+      "codigo": "NTG",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 8,
+      "nombre": "PALLETS NUEV.TR",
+      "codigo": "PNT",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 29,
+      "nombre": "PAPELES CARTON",
+      "codigo": "PAP",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 13,
+      "nombre": "POLIPROPILENO",
+      "codigo": "PPL",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 9,
+      "nombre": "PROPANO",
+      "codigo": "PRO",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 34,
+      "nombre": "RAEE",
+      "codigo": "RAE",
+      "idTipoProducto": 3
+    },
+    {
+      "idProducto": 23,
+      "nombre": "RECUPERO",
+      "codigo": "DNI",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 5,
+      "nombre": "RESID PELIG LIQ",
+      "codigo": "RPL",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 33,
+      "nombre": "RESIDUO PELIGROSO SOLIDO",
+      "codigo": "SSS",
+      "idTipoProducto": 3
+    },
+    {
+      "idProducto": 27,
+      "nombre": "RESIDUOS SOLIDOS URBANOS",
+      "codigo": "RSU",
+      "idTipoProducto": 3
+    },
+    {
+      "idProducto": 24,
+      "nombre": "Retiro de Gas Oil",
+      "codigo": "ART",
+      "idTipoProducto": 1
+    },
+    {
+      "idProducto": 6,
+      "nombre": "SAL GRUESA A GR",
+      "codigo": "SAL",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 17,
+      "nombre": "SODA CAUST LIQU",
+      "codigo": "SCL",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 20,
+      "nombre": "SODA CAUST PERL",
+      "codigo": "SCP",
+      "idTipoProducto": 2
+    },
+    {
+      "idProducto": 30,
+      "nombre": "TUBOS FLUORECENTES Y LAMPARAS DE MERCURIO",
+      "codigo": "MEM",
+      "idTipoProducto": 2
+    }
+  ],
+  "proveedor": [
+    {
+      "idProveedor": 60,
+      "nombre": "aaaaa",
+      "codigo": "ada",
+      "cuit": "1-21",
+      "eliminado": 1,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 73,
+      "nombre": "ARAGOI S.A.",
+      "codigo": "ara",
+      "cuit": "30714363138",
+      "eliminado": 0,
+      "esProductor": 0
+    },
+    {
+      "idProveedor": 48,
+      "nombre": "BRAVO ENERGY SA",
+      "codigo": "BES",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 24,
+      "nombre": "CAMMESA",
+      "codigo": "CAM",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 0
+    },
+    {
+      "idProveedor": 57,
+      "nombre": "CARGILL",
+      "codigo": "CAR",
+      "cuit": "30-50679216-5",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 26,
+      "nombre": "CENTRALES TERMI",
+      "codigo": "CTM",
+      "cuit": "30-67821347-7",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 56,
+      "nombre": "Cereales Don Nino S.A.",
+      "codigo": "CDN",
+      "cuit": "30-70753593-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 74,
+      "nombre": "CMB Baterias",
+      "codigo": "CMB",
+      "cuit": "30715264850",
+      "eliminado": 0,
+      "esProductor": 0
+    },
+    {
+      "idProveedor": 19,
+      "nombre": "COMBUS SUR SA",
+      "codigo": "CBS",
+      "cuit": "30-70725583-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 75,
+      "nombre": "CPSA MZA",
+      "codigo": "CPZ",
+      "cuit": "33650305499",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 39,
+      "nombre": "CTM LDC",
+      "codigo": "LDC",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 70,
+      "nombre": "D.A.P.S.A.",
+      "codigo": "DAP",
+      "cuit": "30-65537309-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 36,
+      "nombre": "DANIEL SABATINI",
+      "codigo": "DSQ",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 38,
+      "nombre": "DISTRIGAS",
+      "codigo": "DIS",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 27,
+      "nombre": "DOS ANCLAS SA",
+      "codigo": "2AN",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 40,
+      "nombre": "DROGUERIA POLO",
+      "codigo": "DPO",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 47,
+      "nombre": "EMILIO TERZI SA",
+      "codigo": "TER",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 63,
+      "nombre": "EMSADE SA",
+      "codigo": "EMS",
+      "cuit": "33708338459",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 71,
+      "nombre": "ENARSA",
+      "codigo": "ENA",
+      "cuit": "30-70909972-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 21,
+      "nombre": "ESSO PETROLERA",
+      "codigo": "ESS",
+      "cuit": "30-50691900-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 43,
+      "nombre": "ETROBRAS-S-M",
+      "codigo": "PSM",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 32,
+      "nombre": "EXPRESO LUJAN",
+      "codigo": "ELU",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 49,
+      "nombre": "FEBRA-PETROL S.A.",
+      "codigo": "FPS",
+      "cuit": "30-71105246-8",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 59,
+      "nombre": "HORMICON S.A.",
+      "codigo": "HSA",
+      "cuit": "30-70760138-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 45,
+      "nombre": "IND RIBOLI SA",
+      "codigo": "IRS",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 58,
+      "nombre": "LABORATORIO QUIMICOS S.R.L",
+      "codigo": "LQS",
+      "cuit": "30-70952700-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 55,
+      "nombre": "LOUISDREYFUS COMMODITIES",
+      "codigo": "DRE",
+      "cuit": "30-52671272-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 35,
+      "nombre": "M Y C PETROL",
+      "codigo": "MYC",
+      "cuit": "30-70806105-7",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 20,
+      "nombre": "MAG DISTRIBUIDO",
+      "codigo": "MAG",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 62,
+      "nombre": "MAG SRL",
+      "codigo": "MAS",
+      "cuit": "30-67821347-7",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 28,
+      "nombre": "MAX DISTRIBUIDORA",
+      "codigo": "MAX",
+      "cuit": "20-08239143-7",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 37,
+      "nombre": "MAXIMO M SANCHZ",
+      "codigo": "MMS",
+      "cuit": "MAXIMO M08239",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 64,
+      "nombre": "MILENIO BAHIA S.A.",
+      "codigo": "MBS",
+      "cuit": "33-68061733-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 72,
+      "nombre": "Municipalidad de Maipu",
+      "codigo": "ORR",
+      "cuit": "30-999078773-3",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 18,
+      "nombre": "NEW AMERICAN OI",
+      "codigo": "NAO",
+      "cuit": "30-70716578-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 52,
+      "nombre": "PANA PETROLEO S.A.",
+      "codigo": "PPS",
+      "cuit": "30-71095349-6",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 34,
+      "nombre": "PETR BAHIA BCA",
+      "codigo": "PBB",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 46,
+      "nombre": "PETR. ARG. S.A.",
+      "codigo": "PAS",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 29,
+      "nombre": "PETROBRAS STAFE",
+      "codigo": "PSF",
+      "cuit": "30-50407707-8",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 54,
+      "nombre": "PETROLERA DEL SUQUIA",
+      "codigo": "PDS",
+      "cuit": "30-70805403-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 31,
+      "nombre": "PETROQUIMICA CU",
+      "codigo": "PQC",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 65,
+      "nombre": "PETRORIO Comp. Petrol. S.A.",
+      "codigo": "PET",
+      "cuit": "30-63726561-6",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 17,
+      "nombre": "POLIPETROL SA",
+      "codigo": "PPE",
+      "cuit": "30-69617942-1",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 33,
+      "nombre": "PRAXAIR",
+      "codigo": "PRA",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 42,
+      "nombre": "PRAXAIR CHILE",
+      "codigo": "PCH",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 53,
+      "nombre": "RE.NE.S.A.",
+      "codigo": "RNS",
+      "cuit": "30-70774782-6",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 16,
+      "nombre": "REFINOR",
+      "codigo": "REF",
+      "cuit": "30-65823369-2",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 68,
+      "nombre": "REFIPAMPA S.A.",
+      "codigo": "RSA",
+      "cuit": "30-71215690-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 61,
+      "nombre": "RS LOGISTICA COMERCIL S.A.",
+      "codigo": "RSL",
+      "cuit": "33-70932079-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 51,
+      "nombre": "SERVICIOS CONO SUR",
+      "codigo": "SCS",
+      "cuit": "0-2345678-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 25,
+      "nombre": "SHELL ARR. SECO",
+      "codigo": "SHA",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 22,
+      "nombre": "SHELL CAPSA",
+      "codigo": "SHL",
+      "cuit": "30-50672680-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 50,
+      "nombre": "T6 Industrial SA",
+      "codigo": "T6",
+      "cuit": "33-68920609-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 41,
+      "nombre": "TLC CAMMESA",
+      "codigo": "TLC",
+      "cuit": "30-65537309-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 14,
+      "nombre": "TRANSPORTES SUR",
+      "codigo": "SUR",
+      "cuit": "27-02101985-8",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 30,
+      "nombre": "TTE TERMICOS SA",
+      "codigo": "TTS",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 15,
+      "nombre": "VICTORIO PODEST",
+      "codigo": "VPC",
+      "cuit": "30-53378967-2",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 44,
+      "nombre": "VITCO.S.A.",
+      "codigo": "VIT",
+      "cuit": "30-65537309--",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 76,
+      "nombre": "WICO COMBUSTIBLES",
+      "codigo": "WIC",
+      "cuit": "30-71611995-1",
+      "eliminado": 1,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 67,
+      "nombre": "XSTORAGE S.A.",
+      "codigo": "XSS",
+      "cuit": "30-68551745-0",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 69,
+      "nombre": "YPF B10",
+      "codigo": "B10",
+      "cuit": "30-54668997-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 23,
+      "nombre": "YPF SA",
+      "codigo": "YPF",
+      "cuit": "30-54668997-9",
+      "eliminado": 0,
+      "esProductor": 1
+    }
+  ],
+  "proveedorEsProductor": [
+    {
+      "idProveedor": 60,
+      "nombre": "aaaaa",
+      "codigo": "ada",
+      "cuit": "1-21",
+      "eliminado": 1,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 48,
+      "nombre": "BRAVO ENERGY SA",
+      "codigo": "BES",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 57,
+      "nombre": "CARGILL",
+      "codigo": "CAR",
+      "cuit": "30-50679216-5",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 26,
+      "nombre": "CENTRALES TERMI",
+      "codigo": "CTM",
+      "cuit": "30-67821347-7",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 56,
+      "nombre": "Cereales Don Nino S.A.",
+      "codigo": "CDN",
+      "cuit": "30-70753593-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 19,
+      "nombre": "COMBUS SUR SA",
+      "codigo": "CBS",
+      "cuit": "30-70725583-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 75,
+      "nombre": "CPSA MZA",
+      "codigo": "CPZ",
+      "cuit": "33650305499",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 39,
+      "nombre": "CTM LDC",
+      "codigo": "LDC",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 70,
+      "nombre": "D.A.P.S.A.",
+      "codigo": "DAP",
+      "cuit": "30-65537309-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 36,
+      "nombre": "DANIEL SABATINI",
+      "codigo": "DSQ",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 38,
+      "nombre": "DISTRIGAS",
+      "codigo": "DIS",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 27,
+      "nombre": "DOS ANCLAS SA",
+      "codigo": "2AN",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 40,
+      "nombre": "DROGUERIA POLO",
+      "codigo": "DPO",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 47,
+      "nombre": "EMILIO TERZI SA",
+      "codigo": "TER",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 63,
+      "nombre": "EMSADE SA",
+      "codigo": "EMS",
+      "cuit": "33708338459",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 71,
+      "nombre": "ENARSA",
+      "codigo": "ENA",
+      "cuit": "30-70909972-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 21,
+      "nombre": "ESSO PETROLERA",
+      "codigo": "ESS",
+      "cuit": "30-50691900-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 43,
+      "nombre": "ETROBRAS-S-M",
+      "codigo": "PSM",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 32,
+      "nombre": "EXPRESO LUJAN",
+      "codigo": "ELU",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 49,
+      "nombre": "FEBRA-PETROL S.A.",
+      "codigo": "FPS",
+      "cuit": "30-71105246-8",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 59,
+      "nombre": "HORMICON S.A.",
+      "codigo": "HSA",
+      "cuit": "30-70760138-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 45,
+      "nombre": "IND RIBOLI SA",
+      "codigo": "IRS",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 58,
+      "nombre": "LABORATORIO QUIMICOS S.R.L",
+      "codigo": "LQS",
+      "cuit": "30-70952700-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 55,
+      "nombre": "LOUISDREYFUS COMMODITIES",
+      "codigo": "DRE",
+      "cuit": "30-52671272-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 35,
+      "nombre": "M Y C PETROL",
+      "codigo": "MYC",
+      "cuit": "30-70806105-7",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 20,
+      "nombre": "MAG DISTRIBUIDO",
+      "codigo": "MAG",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 62,
+      "nombre": "MAG SRL",
+      "codigo": "MAS",
+      "cuit": "30-67821347-7",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 28,
+      "nombre": "MAX DISTRIBUIDORA",
+      "codigo": "MAX",
+      "cuit": "20-08239143-7",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 37,
+      "nombre": "MAXIMO M SANCHZ",
+      "codigo": "MMS",
+      "cuit": "MAXIMO M08239",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 64,
+      "nombre": "MILENIO BAHIA S.A.",
+      "codigo": "MBS",
+      "cuit": "33-68061733-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 72,
+      "nombre": "Municipalidad de Maipu",
+      "codigo": "ORR",
+      "cuit": "30-999078773-3",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 18,
+      "nombre": "NEW AMERICAN OI",
+      "codigo": "NAO",
+      "cuit": "30-70716578-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 52,
+      "nombre": "PANA PETROLEO S.A.",
+      "codigo": "PPS",
+      "cuit": "30-71095349-6",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 34,
+      "nombre": "PETR BAHIA BCA",
+      "codigo": "PBB",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 46,
+      "nombre": "PETR. ARG. S.A.",
+      "codigo": "PAS",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 29,
+      "nombre": "PETROBRAS STAFE",
+      "codigo": "PSF",
+      "cuit": "30-50407707-8",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 54,
+      "nombre": "PETROLERA DEL SUQUIA",
+      "codigo": "PDS",
+      "cuit": "30-70805403-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 31,
+      "nombre": "PETROQUIMICA CU",
+      "codigo": "PQC",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 65,
+      "nombre": "PETRORIO Comp. Petrol. S.A.",
+      "codigo": "PET",
+      "cuit": "30-63726561-6",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 17,
+      "nombre": "POLIPETROL SA",
+      "codigo": "PPE",
+      "cuit": "30-69617942-1",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 33,
+      "nombre": "PRAXAIR",
+      "codigo": "PRA",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 42,
+      "nombre": "PRAXAIR CHILE",
+      "codigo": "PCH",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 53,
+      "nombre": "RE.NE.S.A.",
+      "codigo": "RNS",
+      "cuit": "30-70774782-6",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 16,
+      "nombre": "REFINOR",
+      "codigo": "REF",
+      "cuit": "30-65823369-2",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 68,
+      "nombre": "REFIPAMPA S.A.",
+      "codigo": "RSA",
+      "cuit": "30-71215690-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 61,
+      "nombre": "RS LOGISTICA COMERCIL S.A.",
+      "codigo": "RSL",
+      "cuit": "33-70932079-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 51,
+      "nombre": "SERVICIOS CONO SUR",
+      "codigo": "SCS",
+      "cuit": "0-2345678-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 25,
+      "nombre": "SHELL ARR. SECO",
+      "codigo": "SHA",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 22,
+      "nombre": "SHELL CAPSA",
+      "codigo": "SHL",
+      "cuit": "30-50672680-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 50,
+      "nombre": "T6 Industrial SA",
+      "codigo": "T6",
+      "cuit": "33-68920609-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 41,
+      "nombre": "TLC CAMMESA",
+      "codigo": "TLC",
+      "cuit": "30-65537309-4",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 14,
+      "nombre": "TRANSPORTES SUR",
+      "codigo": "SUR",
+      "cuit": "27-02101985-8",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 30,
+      "nombre": "TTE TERMICOS SA",
+      "codigo": "TTS",
+      "cuit": "",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 15,
+      "nombre": "VICTORIO PODEST",
+      "codigo": "VPC",
+      "cuit": "30-53378967-2",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 44,
+      "nombre": "VITCO.S.A.",
+      "codigo": "VIT",
+      "cuit": "30-65537309--",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 76,
+      "nombre": "WICO COMBUSTIBLES",
+      "codigo": "WIC",
+      "cuit": "30-71611995-1",
+      "eliminado": 1,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 67,
+      "nombre": "XSTORAGE S.A.",
+      "codigo": "XSS",
+      "cuit": "30-68551745-0",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 69,
+      "nombre": "YPF B10",
+      "codigo": "B10",
+      "cuit": "30-54668997-9",
+      "eliminado": 0,
+      "esProductor": 1
+    },
+    {
+      "idProveedor": 23,
+      "nombre": "YPF SA",
+      "codigo": "YPF",
+      "cuit": "30-54668997-9",
+      "eliminado": 0,
+      "esProductor": 1
+    }
+  ],
+  "transportista": [
+    {
+      "idTransportista": 348,
+      "nombre": " PAOLONI NORBERTO",
+      "codigo": "PAN",
+      "cuit": "20-13678133-3",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 359,
+      "nombre": " TRANSPORTE EL MILLO SA",
+      "codigo": "MIL",
+      "cuit": "30-71354980-7",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 204,
+      "nombre": "1 DE ENERO",
+      "codigo": "1DE",
+      "cuit": "0-00000000-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 211,
+      "nombre": "13 DE ENERO",
+      "codigo": "13E",
+      "cuit": "30-71049438-6",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 60,
+      "nombre": "AB TRANSPORTE",
+      "codigo": "ABT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 20,
+      "nombre": "ACQUAPPESSA",
+      "codigo": "ACQ",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 318,
+      "nombre": "Adaro Óscar A.",
+      "codigo": "AOA",
+      "cuit": "20-29523966-3",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 133,
+      "nombre": "ADREK FERNANDO",
+      "codigo": "AFO",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 250,
+      "nombre": "AGÜERO MIRTA ISABEL",
+      "codigo": "AMI",
+      "cuit": "27-13990153-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 213,
+      "nombre": "ALARCON MIGUEL ANGEL",
+      "codigo": "AMA",
+      "cuit": "20-20915662-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 50,
+      "nombre": "ALFA SERVICE",
+      "codigo": "AFS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 29,
+      "nombre": "ALL ROAD",
+      "codigo": "ALD",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 21,
+      "nombre": "ALOCOL SA",
+      "codigo": "ALC",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 338,
+      "nombre": "ALONSO FERNANDO",
+      "codigo": "ALF",
+      "cuit": "20-25961028-2",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 179,
+      "nombre": "ALTRAN",
+      "codigo": "ALT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 158,
+      "nombre": "ANDREK NICANOR",
+      "codigo": "ANO",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 163,
+      "nombre": "ANG. C. DANIEL",
+      "codigo": "ACD",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 154,
+      "nombre": "ANJOR S.A.",
+      "codigo": "ASA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 134,
+      "nombre": "ARGENTO DANIEL",
+      "codigo": "ARD",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 335,
+      "nombre": "ARIONE,AZCONA Y RODRIGUEZ UTE",
+      "codigo": "AAR",
+      "cuit": "30-70745541-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 93,
+      "nombre": "ASCENCIO.S.A",
+      "codigo": "ASC",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 22,
+      "nombre": "ASFUMUL",
+      "codigo": "ASF",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 295,
+      "nombre": "ATRUM S.A.",
+      "codigo": "ATR",
+      "cuit": "30-71205319-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 296,
+      "nombre": "ATRUM S.A.",
+      "codigo": "ATM",
+      "cuit": "30-71205319-0",
+      "eliminado": 1
+    },
+    {
+      "idTransportista": 297,
+      "nombre": "ATRUM S.A.",
+      "codigo": "TRU",
+      "cuit": "30-71205319-0",
+      "eliminado": 1
+    },
+    {
+      "idTransportista": 246,
+      "nombre": "BALLONI BETIANA",
+      "codigo": "BBP",
+      "cuit": "27-25616749-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 61,
+      "nombre": "BEESA",
+      "codigo": "BEE",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 303,
+      "nombre": "BELMONTE FABIAN ANTONIO",
+      "codigo": "BFA",
+      "cuit": "20-25372976-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 238,
+      "nombre": "BELMONTE VICTOR MANUEL",
+      "codigo": "BVM",
+      "cuit": "20-16946050-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 313,
+      "nombre": "BENITEZ OLGA MIRIAN",
+      "codigo": "BOM",
+      "cuit": "33-71156812-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 23,
+      "nombre": "BERALDI",
+      "codigo": "BLD",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 24,
+      "nombre": "BERARDO",
+      "codigo": "BRO",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 25,
+      "nombre": "BERS SA",
+      "codigo": "BRS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 273,
+      "nombre": "BIZZOTTO VIVIANA",
+      "codigo": "BVS",
+      "cuit": "27-201174-4",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 164,
+      "nombre": "BOH. D. ALBERTO",
+      "codigo": "BDA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 346,
+      "nombre": "BOSS SRL",
+      "codigo": "BOS",
+      "cuit": "30-71408500-6",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 241,
+      "nombre": "BRAGAGNINI MIGUEL ANGEL",
+      "codigo": "BMA",
+      "cuit": "20-10511048-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 138,
+      "nombre": "BUTCOVICH JOSE",
+      "codigo": "BJG",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 345,
+      "nombre": "C Y L S.A.",
+      "codigo": "CYL",
+      "cuit": "30-68102881-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 347,
+      "nombre": "C.T.M.S.A",
+      "codigo": "CTM",
+      "cuit": "30-67821347-7",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 109,
+      "nombre": "CACCIA Y CACCIA",
+      "codigo": "CYC",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 97,
+      "nombre": "CAPODARCA S.A.",
+      "codigo": "CPD",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 26,
+      "nombre": "CAPOVILLA",
+      "codigo": "CAP",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 54,
+      "nombre": "CARPINETTI JOSE",
+      "codigo": "CJL",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 181,
+      "nombre": "CARPINETTI ROBE",
+      "codigo": "CRO",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 197,
+      "nombre": "CARRERA RUBEN ANTONIO",
+      "codigo": "CRA",
+      "cuit": "30-70797252-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 99,
+      "nombre": "CENIT DEL SUR",
+      "codigo": "CDS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 352,
+      "nombre": "CERETANI P Y VISACIA G SH",
+      "codigo": "CPY",
+      "cuit": "30-71421374-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 130,
+      "nombre": "CHADE CARLOS M.",
+      "codigo": "CCM",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 363,
+      "nombre": "CHENYI SA",
+      "codigo": "CHE",
+      "cuit": "30-70817538-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 19,
+      "nombre": "CIA. TSB S.A.",
+      "codigo": "TSB",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 332,
+      "nombre": "CINCA S.A.",
+      "codigo": "CIN",
+      "cuit": "33-71229872-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 322,
+      "nombre": "CIOTTI S.A.",
+      "codigo": "CTT",
+      "cuit": "30-70874011-6",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 144,
+      "nombre": "COMB. EL PUENTE",
+      "codigo": "CEP",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 145,
+      "nombre": "COMB. RUTA 6",
+      "codigo": "CR6",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 105,
+      "nombre": "COMBES COMBUSTI",
+      "codigo": "CCO",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 15,
+      "nombre": "COMBUS SUR SRL",
+      "codigo": "CBS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 112,
+      "nombre": "COMERC. AZCUENA",
+      "codigo": "CMA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 142,
+      "nombre": "COMPLEJO STA RO",
+      "codigo": "CSR",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 143,
+      "nombre": "CONSTANTINI VIC",
+      "codigo": "COV",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 257,
+      "nombre": "CONTRINI HNOS S.R.L.",
+      "codigo": "CHS",
+      "cuit": "30-68225261-4",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 351,
+      "nombre": "COSTANTINI SILVIO",
+      "codigo": "CSI",
+      "cuit": "20-12713267-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 344,
+      "nombre": "COVEMAT SRL",
+      "codigo": "COT",
+      "cuit": "30-60440802-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 101,
+      "nombre": "CUYO CLOR S.A",
+      "codigo": "CUC",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 75,
+      "nombre": "DANIEL SABATINI",
+      "codigo": "TDS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 28,
+      "nombre": "DAPELLO",
+      "codigo": "DPL",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 195,
+      "nombre": "DAUB S.R.L.",
+      "codigo": "DAU",
+      "cuit": "27-13524212-3",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 321,
+      "nombre": "DE LUCA LUIS SALVADOR",
+      "codigo": "DLL",
+      "cuit": "20-12092346-4",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 192,
+      "nombre": "DELTACOM",
+      "codigo": "DEL",
+      "cuit": "30-65518973-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 67,
+      "nombre": "DEMALDE JORGE",
+      "codigo": "DMD",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 80,
+      "nombre": "DEST.ARG.PETR.",
+      "codigo": "DAP",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 201,
+      "nombre": "DI COSMO HORACIO",
+      "codigo": "DCH",
+      "cuit": "20-21036577-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 147,
+      "nombre": "DIAZ PEREZ D.R.",
+      "codigo": "RDP",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 216,
+      "nombre": "DIAZ SONIA VIVIANA",
+      "codigo": "DSV",
+      "cuit": "27-43628158-7",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 139,
+      "nombre": "DIEGO MENENDEZ",
+      "codigo": "MSH",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 30,
+      "nombre": "DIST SAN MARTIN",
+      "codigo": "DSM",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 234,
+      "nombre": "Distribuidora Maldonado S.R.L.",
+      "codigo": "DMS",
+      "cuit": "30-70951239-7",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 71,
+      "nombre": "DON ANTONIO",
+      "codigo": "DAN",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 202,
+      "nombre": "DON GASTON S.R.L.",
+      "codigo": "DGS",
+      "cuit": "30-70882943-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 360,
+      "nombre": "DON VICENTE",
+      "codigo": "CEN",
+      "cuit": "27-11160382-6",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 340,
+      "nombre": "DONNET y THIMENTAL",
+      "codigo": "DTH",
+      "cuit": "30-59675123-3",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 341,
+      "nombre": "DONNET Y THIMENTAL SH",
+      "codigo": "DYT",
+      "cuit": "30-59675123-3",
+      "eliminado": 1
+    },
+    {
+      "idTransportista": 190,
+      "nombre": "DOUMA M. ANGEL",
+      "codigo": "DMA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 118,
+      "nombre": "DROGUERIA POLO",
+      "codigo": "TDP",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 334,
+      "nombre": "EMSADE SA",
+      "codigo": "EMS",
+      "cuit": "33708338459",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 185,
+      "nombre": "ENERGY C SERVIC",
+      "codigo": "ECS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 123,
+      "nombre": "ESPINDOLA TEMCH",
+      "codigo": "ETM",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 55,
+      "nombre": "ESTAC. DEL SOL",
+      "codigo": "EDS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 115,
+      "nombre": "EXP. EL AGUILUC",
+      "codigo": "EEA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 90,
+      "nombre": "EXP.MALARGUE",
+      "codigo": "EXM",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 73,
+      "nombre": "EXPRESO EL CARR",
+      "codigo": "ECA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 69,
+      "nombre": "EXPRESO LUJAN",
+      "codigo": "ELU",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 336,
+      "nombre": "F.J.W.S.A. de Transportes",
+      "codigo": "FJW",
+      "cuit": "30-60166658-4",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 128,
+      "nombre": "FA SERVICIOS",
+      "codigo": "FAS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 56,
+      "nombre": "FARRUGIA UTE CU",
+      "codigo": "FUC",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 218,
+      "nombre": "Fernandez Leonardo Gabriel",
+      "codigo": "FLG",
+      "cuit": "20-29304077-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 312,
+      "nombre": "Fideicomiso Rutas Argentinas ",
+      "codigo": "FRU",
+      "cuit": "30-71096190-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 323,
+      "nombre": "FINEL S.R.L.",
+      "codigo": "FIN",
+      "cuit": "30-70814718-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 31,
+      "nombre": "FITTIPALDI",
+      "codigo": "FTT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 354,
+      "nombre": "FJC SRL",
+      "codigo": "FJC",
+      "cuit": "30-71400435-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 220,
+      "nombre": "Fluvialba",
+      "codigo": "FLU",
+      "cuit": "1-11111111-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 32,
+      "nombre": "FRAMA",
+      "codigo": "FRA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 151,
+      "nombre": "FULLTANK S.A.",
+      "codigo": "FSA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 223,
+      "nombre": "GALLO NORA CRISTINA",
+      "codigo": "GNR",
+      "cuit": "27-20417936-6",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 157,
+      "nombre": "GAMBINI RODOLFO",
+      "codigo": "GAR",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 170,
+      "nombre": "GAS A. TIFERNO",
+      "codigo": "GAT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 137,
+      "nombre": "GAVRANIC-PONCE",
+      "codigo": "GPL",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 236,
+      "nombre": "Gemaco S.A.",
+      "codigo": "GSA",
+      "cuit": "30-70859268-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 107,
+      "nombre": "GEO SERVICE.S.A",
+      "codigo": "GEO",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 349,
+      "nombre": "gestión de servicios  petroleros sa",
+      "codigo": "GSP",
+      "cuit": "30-70904512-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 292,
+      "nombre": "Giacumelli José María",
+      "codigo": "GJM",
+      "cuit": "20-22943908-2",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 293,
+      "nombre": "Giacumelli José María",
+      "codigo": "G11",
+      "cuit": "20-22943908-2",
+      "eliminado": 1
+    },
+    {
+      "idTransportista": 152,
+      "nombre": "GOMEZ J. RAMON",
+      "codigo": "GJR",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 244,
+      "nombre": "GOMEZ JOSE ABRAHAM",
+      "codigo": "GJA",
+      "cuit": "20-08789144-6",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 18,
+      "nombre": "GONCALVES RAMIR",
+      "codigo": "GRA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 33,
+      "nombre": "GOSTTELI",
+      "codigo": "GOS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 27,
+      "nombre": "GUTIERREZ",
+      "codigo": "GUT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 85,
+      "nombre": "HECTOR.BOLEGGI",
+      "codigo": "HHB",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 221,
+      "nombre": "HIDROCARBUROS DEL PLATA",
+      "codigo": "HDP",
+      "cuit": "30-70933806-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 306,
+      "nombre": "HORMICON S.A.",
+      "codigo": "HSA",
+      "cuit": "30-70760138-4",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 325,
+      "nombre": "HUEMUL SRL",
+      "codigo": "HUE",
+      "cuit": "30-71128854-2",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 127,
+      "nombre": "IGARZA ROSALIA",
+      "codigo": "IRM",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 317,
+      "nombre": "Integra Servicios y Transporte SRL",
+      "codigo": "IST",
+      "cuit": "30-70876346-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 304,
+      "nombre": "ISOLA HORACIO SERGIO",
+      "codigo": "IHS",
+      "cuit": "20-16154855-4",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 68,
+      "nombre": "ITALGAS A A",
+      "codigo": "ITG",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 51,
+      "nombre": "J ARDISAUSKAS T",
+      "codigo": "JAU",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 34,
+      "nombre": "JDG",
+      "codigo": "JDG",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 245,
+      "nombre": "JORGE A CASO S.A.",
+      "codigo": "JAC",
+      "cuit": "30-63364769-7",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 153,
+      "nombre": "JUCALES S.A.",
+      "codigo": "JSA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 35,
+      "nombre": "KATERINICZ",
+      "codigo": "KAT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 166,
+      "nombre": "KOSIK EDUARDO",
+      "codigo": "KED",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 103,
+      "nombre": "KRENZ.F.MIGUEL",
+      "codigo": "KFM",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 237,
+      "nombre": "LA PAMPEANA S.A.",
+      "codigo": "LPS",
+      "cuit": "33-70355859-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 299,
+      "nombre": "LABORATORIO QUIMICOS",
+      "codigo": "LQ1",
+      "cuit": "30-70952700-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 326,
+      "nombre": "LAGO VERDE SRL",
+      "codigo": "LVS",
+      "cuit": "30-70996506-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 148,
+      "nombre": "LALUK ANA MARIA",
+      "codigo": "LAM",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 361,
+      "nombre": "LAPELLI MARCELO JOSE",
+      "codigo": "LMJ",
+      "cuit": "20-18064560-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 302,
+      "nombre": "LAT Logistica Arg. en Transportes",
+      "codigo": "LAT",
+      "cuit": "30-52136957-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 159,
+      "nombre": "LOG TRANSUR SRL",
+      "codigo": "LTS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 121,
+      "nombre": "LOGIC ARGENTINE",
+      "codigo": "TLA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 343,
+      "nombre": "Logística Diesel sa",
+      "codigo": "LOD",
+      "cuit": "30-70917119-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 309,
+      "nombre": "LOGISTICA MASA SRL.",
+      "codigo": "LMA",
+      "cuit": "30-71188349-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 198,
+      "nombre": "LOMBARD GUILLERMO",
+      "codigo": "LGE",
+      "cuit": "20-16795135-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 174,
+      "nombre": "LOZADA FABIAN",
+      "codigo": "LFA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 227,
+      "nombre": "LUIS ARIEL ROMANO",
+      "codigo": "LAR",
+      "cuit": "20-29076850-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 94,
+      "nombre": "LUJAN",
+      "codigo": "LGA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 66,
+      "nombre": "LUJAN GAS",
+      "codigo": "LJG",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 222,
+      "nombre": "LUPALU S.A.",
+      "codigo": "LUP",
+      "cuit": "30-70881596-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 214,
+      "nombre": "LVH S.R.L.",
+      "codigo": "LVH",
+      "cuit": "30-71069894-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 189,
+      "nombre": "MAELHO S.R.L.",
+      "codigo": "MSR",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 141,
+      "nombre": "MANDERLY LATINA",
+      "codigo": "MLA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 70,
+      "nombre": "MANRIQUE",
+      "codigo": "MAN",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 196,
+      "nombre": "MARCEGALOS S.A.",
+      "codigo": "MGS",
+      "cuit": "30-70777672-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 132,
+      "nombre": "MARMAT S.A.",
+      "codigo": "MSA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 37,
+      "nombre": "MARTILUCCI",
+      "codigo": "MTC",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 264,
+      "nombre": "Max Distrubuidora",
+      "codigo": "MAX",
+      "cuit": "20-08239143-7",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 53,
+      "nombre": "MENICHETTI JOSE",
+      "codigo": "MJL",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 199,
+      "nombre": "MERI - MAR S.R.L.",
+      "codigo": "MER",
+      "cuit": "30-70790209-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 231,
+      "nombre": "Metalúrgica Ramón SRL",
+      "codigo": "MRS",
+      "cuit": "30-70239753-3",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 38,
+      "nombre": "MILESI SA",
+      "codigo": "MLS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 210,
+      "nombre": "MINETTI JORGE OMAR",
+      "codigo": "MJO",
+      "cuit": "20-06435249-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 176,
+      "nombre": "MOLINA HECTOR",
+      "codigo": "MHE",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 108,
+      "nombre": "MOLTRASI S.A.",
+      "codigo": "MOL",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 314,
+      "nombre": "MOLVE TRANSPORTE INTERNACIONAL SRL",
+      "codigo": "MTI",
+      "cuit": "30-70967437-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 126,
+      "nombre": "MORESI S.R.L.",
+      "codigo": "MOR",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 186,
+      "nombre": "MORETTI C. ENRI",
+      "codigo": "MCE",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 228,
+      "nombre": "MOVOL S.A",
+      "codigo": "MOV",
+      "cuit": "0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 168,
+      "nombre": "MULIERI JUAN C",
+      "codigo": "MJC",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 57,
+      "nombre": "MUNDO NUEVO CUY",
+      "codigo": "MNU",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 305,
+      "nombre": "NAL SHIPPING S.A.",
+      "codigo": "NSS",
+      "cuit": "30-71109142-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 13,
+      "nombre": "NAT ESPOSITO",
+      "codigo": "NES",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 125,
+      "nombre": "NAVI S.A.",
+      "codigo": "NAV",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 280,
+      "nombre": "NB Transporte",
+      "codigo": "NBT",
+      "cuit": "27-24254905-3",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 135,
+      "nombre": "NEGRI H Y SH",
+      "codigo": "NHS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 215,
+      "nombre": "NOGUERA JOSE M",
+      "codigo": "NOG",
+      "cuit": "20-05527585-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 200,
+      "nombre": "NUÑEZ DIEGO MARCELO",
+      "codigo": "NDM",
+      "cuit": "20-23249305-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 329,
+      "nombre": "ORTEGA SERGIO ISMAEL",
+      "codigo": "OSI",
+      "cuit": "20-16296414-4",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 39,
+      "nombre": "PANNUNZIO",
+      "codigo": "PNZ",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 225,
+      "nombre": "PARDEL Carlos Alberto",
+      "codigo": "PCA",
+      "cuit": "23-17507332-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 52,
+      "nombre": "PEPPE MIGUEL AN",
+      "codigo": "MAP",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 298,
+      "nombre": "Perez Curbelo Log SRL",
+      "codigo": "PCL",
+      "cuit": "30-71169241-6",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 40,
+      "nombre": "PET. DEL SUQUIA",
+      "codigo": "PDS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 203,
+      "nombre": "PETRO RIO S.A.",
+      "codigo": "PRS",
+      "cuit": "30-63726561-6",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 310,
+      "nombre": "PETRO WORLD S.A.",
+      "codigo": "PWO",
+      "cuit": "30-70719901-2",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 16,
+      "nombre": "PETROGAN S.A.",
+      "codigo": "PSA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 193,
+      "nombre": "PETROL - TRANS",
+      "codigo": "PTS",
+      "cuit": "30-70987682-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 307,
+      "nombre": "PETROVALLE SA",
+      "codigo": "PLL",
+      "cuit": "30-61231090-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 339,
+      "nombre": "PICCHIO, GUSTAVO MARCELO",
+      "codigo": "PGM",
+      "cuit": "20-22843786-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 294,
+      "nombre": "PICCOLO ISMAEL PABLO",
+      "codigo": "PIP",
+      "cuit": "20-24956604-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 355,
+      "nombre": "POLIPETROL SA",
+      "codigo": "LIP",
+      "cuit": "30-69617942-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 83,
+      "nombre": "POLITRUK.S.A",
+      "codigo": "PLT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 207,
+      "nombre": "POWER MARINE S.R.L.",
+      "codigo": "PMS",
+      "cuit": "30-70884178-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 81,
+      "nombre": "POZOBON O RUBEN",
+      "codigo": "POR",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 91,
+      "nombre": "PRAXAIR",
+      "codigo": "PRA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 169,
+      "nombre": "PROSPERI",
+      "codigo": "PRO",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 171,
+      "nombre": "PROVECOMB",
+      "codigo": "PVC",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 327,
+      "nombre": "QUIMICA ROSARINA SRL",
+      "codigo": "QRS",
+      "cuit": "30-70884242-3",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 311,
+      "nombre": "R. GARCIA E HIJOS",
+      "codigo": "RGH",
+      "cuit": "30-71075663-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 100,
+      "nombre": "R. GRIFFOULIERE",
+      "codigo": "RGF",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 114,
+      "nombre": "R.S.LOGISTICA3T",
+      "codigo": "RSL",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 41,
+      "nombre": "RATTO",
+      "codigo": "RTT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 172,
+      "nombre": "RECUPERO",
+      "codigo": "REC",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 239,
+      "nombre": "RETAIL S.A.",
+      "codigo": "RSA",
+      "cuit": "30-71128189-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 42,
+      "nombre": "RICARDO LUCERO",
+      "codigo": "RLU",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 230,
+      "nombre": "Roa María Carolina",
+      "codigo": "RMC",
+      "cuit": "27-16944856-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 59,
+      "nombre": "ROFERO S.A.",
+      "codigo": "RFR",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 116,
+      "nombre": "ROLI GAS",
+      "codigo": "RLG",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 162,
+      "nombre": "RON HUGO ALBERT",
+      "codigo": "RHA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 353,
+      "nombre": "ROSOIL SRL",
+      "codigo": "ROL",
+      "cuit": "30-71227010-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 282,
+      "nombre": "ROUTE S.A.",
+      "codigo": "ROS",
+      "cuit": "11-11111111-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 177,
+      "nombre": "ROXANA AGUERA",
+      "codigo": "ROA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 43,
+      "nombre": "RUGGERI",
+      "codigo": "RGR",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 173,
+      "nombre": "RUTA UNO SRL",
+      "codigo": "R1S",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 77,
+      "nombre": "RUTAS.DEL.MERCO",
+      "codigo": "RDM",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 63,
+      "nombre": "SABATINI DANIEL",
+      "codigo": "SAB",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 95,
+      "nombre": "SALVADOR LIA",
+      "codigo": "LIA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 124,
+      "nombre": "SANCHEZ DANIEL",
+      "codigo": "SDT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 62,
+      "nombre": "SANCHEZ MAXIMO",
+      "codigo": "MMS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 36,
+      "nombre": "SANCHEZ SILLERO",
+      "codigo": "SSH",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 356,
+      "nombre": "Sebastian Moreno",
+      "codigo": "GSM",
+      "cuit": "20-32130390-1",
+      "eliminado": 1
+    },
+    {
+      "idTransportista": 253,
+      "nombre": "SEMALE S.A.",
+      "codigo": "SEM",
+      "cuit": "30-71074446-3",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 44,
+      "nombre": "SEMET SA",
+      "codigo": "SMT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 364,
+      "nombre": "SEMISA S.R.L.",
+      "codigo": "SSR",
+      "cuit": "30-68169512-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 365,
+      "nombre": "SEMISA S.R.L.",
+      "codigo": "SEMI",
+      "cuit": "30-68169512-1",
+      "eliminado": 1
+    },
+    {
+      "idTransportista": 281,
+      "nombre": "SETRACO",
+      "codigo": "SET",
+      "cuit": "20-04929126-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 149,
+      "nombre": "SIELCOR S.A.",
+      "codigo": "SSA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 111,
+      "nombre": "SIMALI",
+      "codigo": "SIM",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 357,
+      "nombre": "SOANE HERNAN ALEXIS",
+      "codigo": "SHA",
+      "cuit": "20-25747290-7",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 175,
+      "nombre": "SOLANS",
+      "codigo": "SOL",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 129,
+      "nombre": "SOTO ELIZABETH",
+      "codigo": "SEF",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 330,
+      "nombre": "SPESSOTTI RAMON OSCAR",
+      "codigo": "SRO",
+      "cuit": "20-16327644-6",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 229,
+      "nombre": "STCT",
+      "codigo": "STC",
+      "cuit": "30-71094422-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 113,
+      "nombre": "SU TIEMPO S.A.",
+      "codigo": "SUT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 194,
+      "nombre": "T DICESARE S R L",
+      "codigo": "TDC",
+      "cuit": "30-61578102-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 110,
+      "nombre": "T. DON ANIBAL",
+      "codigo": "TDA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 12,
+      "nombre": "T. SAN CAYETANO",
+      "codigo": "SCA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 248,
+      "nombre": "T. y C. Don Fernando SRL",
+      "codigo": "TDF",
+      "cuit": "30-71108180-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 106,
+      "nombre": "T.INVERS.VITIV",
+      "codigo": "TIV",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 58,
+      "nombre": "TALNOR SRL",
+      "codigo": "TTL",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 240,
+      "nombre": "TARTAGAL COMBUSTIBLES S.A.",
+      "codigo": "TCS",
+      "cuit": "30-67318311-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 324,
+      "nombre": "TAYM S.A.",
+      "codigo": "TAY",
+      "cuit": "30-67819319-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 233,
+      "nombre": "Temperini Guillermo Ariel",
+      "codigo": "TAR",
+      "cuit": "20-24552678-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 45,
+      "nombre": "TERZI SA",
+      "codigo": "TER",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 188,
+      "nombre": "TETTAMANZI S R",
+      "codigo": "SRT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 358,
+      "nombre": "TISSERA FABIAN MARCOS",
+      "codigo": "TFM",
+      "cuit": "20-24133039-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 167,
+      "nombre": "TORRE REYNALDO",
+      "codigo": "TRJ",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 232,
+      "nombre": "Torresi Lilia Ernesta",
+      "codigo": "TLE",
+      "cuit": "27-03698964-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 122,
+      "nombre": "TORTORIELLO",
+      "codigo": "TOR",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 146,
+      "nombre": "TRA. B. SANJINE",
+      "codigo": "TBS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 161,
+      "nombre": "TRA. SAN CARLOS",
+      "codigo": "TSC",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 117,
+      "nombre": "TRAN. SEGURIDAD",
+      "codigo": "TRS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 102,
+      "nombre": "TRANAGRO S.R.L.",
+      "codigo": "TAG",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 208,
+      "nombre": "TRANEF S.A.",
+      "codigo": "NEF",
+      "cuit": "1-11111111-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 79,
+      "nombre": "TRANS BEL SRL",
+      "codigo": "TBE",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 82,
+      "nombre": "TRANS NAVA ALB",
+      "codigo": "TNA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 119,
+      "nombre": "TRANS. BRESSAN",
+      "codigo": "BRE",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 150,
+      "nombre": "TRANS. CJB SRL",
+      "codigo": "CJB",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 120,
+      "nombre": "TRANS. D. ORSO",
+      "codigo": "TDO",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 251,
+      "nombre": "Trans. LUISCAR S.R.L.",
+      "codigo": "LUI",
+      "cuit": "30-70455276-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 217,
+      "nombre": "TRANS. T Y G S.R.L.",
+      "codigo": "TYG",
+      "cuit": "30-71128493-8",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 87,
+      "nombre": "TRANS.D.E.C.",
+      "codigo": "DEC",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 78,
+      "nombre": "TRANS.F.ANDREU",
+      "codigo": "TFA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 76,
+      "nombre": "TRANS.T.PEREZ",
+      "codigo": "TTP",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 301,
+      "nombre": "TRANSCHEMICAL",
+      "codigo": "TRC",
+      "cuit": "30655373094",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 331,
+      "nombre": "TRANSDECOM SRL",
+      "codigo": "DCM",
+      "cuit": "30-71085195-2",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 284,
+      "nombre": "Transfeli S.R.L.",
+      "codigo": "TFL",
+      "cuit": "30-70757122-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 285,
+      "nombre": "Transfeli S.R.L.",
+      "codigo": "TRF",
+      "cuit": "30-70757122-1",
+      "eliminado": 1
+    },
+    {
+      "idTransportista": 286,
+      "nombre": "Transfeli S.R.L.",
+      "codigo": "FEL",
+      "cuit": "30-70757122-1",
+      "eliminado": 1
+    },
+    {
+      "idTransportista": 287,
+      "nombre": "Transfeli S.R.L.",
+      "codigo": "TLL",
+      "cuit": "30-70757122-1",
+      "eliminado": 1
+    },
+    {
+      "idTransportista": 288,
+      "nombre": "Transfeli S.R.L.",
+      "codigo": "TPW",
+      "cuit": "30-70757122-1",
+      "eliminado": 1
+    },
+    {
+      "idTransportista": 289,
+      "nombre": "Transfeli S.R.L.",
+      "codigo": "ZZW",
+      "cuit": "30-70757122-1",
+      "eliminado": 1
+    },
+    {
+      "idTransportista": 290,
+      "nombre": "Transfeli S.R.L.",
+      "codigo": "Z1T",
+      "cuit": "30-70757122-1",
+      "eliminado": 1
+    },
+    {
+      "idTransportista": 243,
+      "nombre": "Trans-Fuel S.R.L.",
+      "codigo": "TFS",
+      "cuit": "30-71063640-7",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 315,
+      "nombre": "TRANSLOGHAR",
+      "codigo": "TLH",
+      "cuit": "30-70932656-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 182,
+      "nombre": "TRANSMONTE",
+      "codigo": "TMO",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 74,
+      "nombre": "TRANSP GABELLI",
+      "codigo": "TGA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 72,
+      "nombre": "TRANSP ROMAN",
+      "codigo": "TRO",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 88,
+      "nombre": "TRANSP TOMASITO",
+      "codigo": "TTO",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 64,
+      "nombre": "TRANSP UNID PET",
+      "codigo": "TUP",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 47,
+      "nombre": "TRANSP. ANTARES",
+      "codigo": "TAN",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 183,
+      "nombre": "TRANSP. MAG",
+      "codigo": "MAG",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 65,
+      "nombre": "TRANSP. MDM SRL",
+      "codigo": "MDM",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 9,
+      "nombre": "TRANSP. SURENOS",
+      "codigo": "TSU",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 84,
+      "nombre": "TRANSP.BARALE",
+      "codigo": "TBA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 86,
+      "nombre": "TRANSP.E.NEGRI",
+      "codigo": "TEN",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 48,
+      "nombre": "TRANSP.TERMICOS",
+      "codigo": "TTR",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 362,
+      "nombre": "TRANSPACHO S.R.L.",
+      "codigo": "TPA",
+      "cuit": "30-71149048-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 89,
+      "nombre": "TRANSP-BOTTO",
+      "codigo": "BOT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 235,
+      "nombre": "TRANSPORTE EL INDIO S.R.L.",
+      "codigo": "TEI",
+      "cuit": "30-70895336-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 308,
+      "nombre": "TRANSPORTE J.D.G. S.A.",
+      "codigo": "TJD",
+      "cuit": "33-67995862-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 283,
+      "nombre": "Transporte los Juanes S.A.",
+      "codigo": "TLJ",
+      "cuit": "30-71159513-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 92,
+      "nombre": "TRANSPORTE MASA",
+      "codigo": "TMA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 131,
+      "nombre": "TRANSPORTES PM",
+      "codigo": "TPM",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 319,
+      "nombre": "TRANSPORTES PUERTO NUEVO SRL",
+      "codigo": "TPN",
+      "cuit": "30-65767733-3",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 10,
+      "nombre": "TRANSPORTES SUR",
+      "codigo": "SUR",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 156,
+      "nombre": "TRANSQUALITY BA",
+      "codigo": "TQB",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 333,
+      "nombre": "TRANSRINGO",
+      "codigo": "TRG",
+      "cuit": "30-71382280-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 206,
+      "nombre": "TRANSUMAR",
+      "codigo": "MAR",
+      "cuit": "0-00000000-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 242,
+      "nombre": "TRANSVIER S.A.",
+      "codigo": "TSA",
+      "cuit": "30-71090093-7",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 180,
+      "nombre": "TRASFELI S.R.L.",
+      "codigo": "TSR",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 209,
+      "nombre": "TRES C S.R.L.",
+      "codigo": "3CS",
+      "cuit": "30-70846419-4",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 249,
+      "nombre": "TRESELE S.A.",
+      "codigo": "TRE",
+      "cuit": "30-10803569-2",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 160,
+      "nombre": "TRINIDAD ALBERT",
+      "codigo": "TRA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 291,
+      "nombre": "Tripodi Santiago A.",
+      "codigo": "T12",
+      "cuit": "20-25446182-3",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 140,
+      "nombre": "TRNAS. DEL NOA",
+      "codigo": "NOA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 247,
+      "nombre": "TRUCCONI N. ESPERANSA",
+      "codigo": "TNE",
+      "cuit": "27-10061341-2",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 96,
+      "nombre": "TRUCK WORKS RL",
+      "codigo": "TRW",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 219,
+      "nombre": "TTE. BRUSA",
+      "codigo": "BRU",
+      "cuit": "1-23456789-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 184,
+      "nombre": "TTE. L. PANELLA",
+      "codigo": "TLP",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 14,
+      "nombre": "TTE. SALCEDO",
+      "codigo": "SAL",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 366,
+      "nombre": "TTES EL CHOLO S.A",
+      "codigo": "CSA",
+      "cuit": "30-65818363-6",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 350,
+      "nombre": "TWO DOLPHINS SRL",
+      "codigo": "TWO",
+      "cuit": "30-71350800-0",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 104,
+      "nombre": "ULTRAN.S.A.",
+      "codigo": "ULT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 342,
+      "nombre": "UMBER S.A.",
+      "codigo": "USA",
+      "cuit": "30-70967178-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 98,
+      "nombre": "URBAN.TRANSP.SA",
+      "codigo": "URT",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 165,
+      "nombre": "VAL. DEL CEN SA",
+      "codigo": "VCS",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 155,
+      "nombre": "VELAZQUEZ M.JAC",
+      "codigo": "VMJ",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 178,
+      "nombre": "VERDE ALEJANDRO",
+      "codigo": "VEA",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 46,
+      "nombre": "VESPRINI VESPRI",
+      "codigo": "TVV",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 49,
+      "nombre": "VIAL CID SA",
+      "codigo": "VCD",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 11,
+      "nombre": "VICTORIO PODEST",
+      "codigo": "VPC",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 226,
+      "nombre": "VILA Martiniano",
+      "codigo": "VMA",
+      "cuit": "20-26407301-5",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 187,
+      "nombre": "VILA RAUL JOSE",
+      "codigo": "VRJ",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 212,
+      "nombre": "VILLAR DAMIAN PATRICIO",
+      "codigo": "VDP",
+      "cuit": "23-23112790-9",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 17,
+      "nombre": "VISCONTI JORGE",
+      "codigo": "VJO",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 320,
+      "nombre": "VITELLI ALICIA JOSEFA",
+      "codigo": "VAJ",
+      "cuit": "27-11108010-6",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 191,
+      "nombre": "WISNER JUAN L R",
+      "codigo": "WJL",
+      "cuit": "",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 252,
+      "nombre": "YASER S.R.L.",
+      "codigo": "YSR",
+      "cuit": "30-70870424-1",
+      "eliminado": 0
+    },
+    {
+      "idTransportista": 136,
+      "nombre": "ZARANICH ENRIQU",
+      "codigo": "ZEJ",
+      "cuit": "",
+      "eliminado": 0
+    }
+  ],
+  "unidadMedida": [
+    {
+      "idUnidadMedida": 1,
+      "abreviatura": ""
+    },
+    {
+      "idUnidadMedida": 2,
+      "abreviatura": "kg"
+    },
+    {
+      "idUnidadMedida": 3,
+      "abreviatura": "l"
+    }
+  ],
+  "anexo": {
+    "nroRemito": "1",
+    "fechaHoraIngreso": "2022-08-23T18:15:32.386Z",
+    "camion": {
+      "idVehiculo": 0,
+      "patente": "dfg456"
+    },
+    "acoplado": {
+      "idVehiculo": 0,
+      "patente": "sdf345"
+    },
+    "conductor": {
+      "idConductor": 30,
+      "dni": 27738015,
+      "nombre": "GUSTAVO",
+      "apellido": "FUMAROLA"
+    },
+    "idProducto": 19,
+    "idProveedor": 48,
+    "idProductor": 48,
+    "idTransportista": 348,
+    "idDestinatario": 1,
+    "idUnidadMedida": 2,
+    "cantSegunRemito": "1",
+    "observaciones": "asDADASD",
+    "idUsuario": 3,
+    "controles": [
+      {
+        "idControl": 33,
+        "valor": "sí"
+      },
+      {
+        "idControl": 35,
+        "valor": "sí"
+      },
+      {
+        "idControl": 34,
+        "valor": "sí"
+      },
+      {
+        "idControl": 37,
+        "valor": "sí"
+      },
+      {
+        "idControl": 38,
+        "valor": "sí"
+      }
+    ]
+  },
+  "salidaData": [
+    {
+      "patenteCamion": "AAA111",
+      "nombreConductor": "GARCIA MARIANO",
+      "producto": "GAS OIL",
+      "proveedor": "BRAVO ENERGY SA",
+      "productor": "BRAVO ENERGY SA",
+      "transportista": "CAPOVILLA",
+      "idAnexo": 1,
+      "patenteAcoplado": "AAA222",
+      "dniConductor": "34856985",
+      "fechaIngreso": "2022-07-29T13:01:48.260",
+      "estado": "Correcto"
+    },
+    {
+      "patenteCamion": "BBB111",
+      "nombreConductor": "ORTEGA ANDRES",
+      "producto": "GAS OIL",
+      "proveedor": "BRAVO ENERGY SA",
+      "productor": "BRAVO ENERGY SA",
+      "transportista": "CAPOVILLA",
+      "idAnexo": 2,
+      "patenteAcoplado": "BBB222",
+      "dniConductor": "35000000",
+      "fechaIngreso": "2022-07-30T13:01:48.260",
+      "estado": "Correcto"
+    },
+    {
+      "patenteCamion": "CCC111",
+      "nombreConductor": "OCHOA JULIAN",
+      "producto": "GAS OIL",
+      "proveedor": "BRAVO ENERGY SA",
+      "productor": "BRAVO ENERGY SA",
+      "transportista": "CAPOVILLA",
+      "idAnexo": 3,
+      "patenteAcoplado": "CCC222",
+      "dniConductor": "35000000",
+      "fechaIngreso": "2022-08-01T13:01:48.260",
+      "estado": "Correcto"
+    }
+  ],
+  "autorizacionData": [
+    {
+      "patente": "A-Patente 1",
+      "conductor": "A-Conductor 1",
+      "producto": "A-Producto 1",
+      "proveedor": "A-Proveedor 1",
+      "productor": "A-Productor 1",
+      "transportista": "A-Transportista 1",
+      "accion": "A-Acciones 1"
+    },
+    {
+      "patente": "A-Patente 2",
+      "conductor": "A-Conductor 2",
+      "producto": "A-Producto 2",
+      "proveedor": "A-Proveedor 2",
+      "productor": "A-Productor 2",
+      "transportista": "A-Transportista 2",
+      "accion": "A-Acciones 2"
+    },
+    {
+      "patente": "A-Patente 3",
+      "conductor": "A-Conductor 3",
+      "producto": "A-Producto 3",
+      "proveedor": "A-Proveedor 3",
+      "productor": "A-Productor 3",
+      "transportista": "A-Transportista 3",
+      "accion": "A-Acciones 3"
+    }
+  ],
+  "ingreso-egreso-anexo1": [
+    {
+      "idAnexo": 1,
+      "fechaHoraIngreso": "2022-07-27T04:15:16.265Z",
+      "estado": "estadoAnexo",
+      "color": "colorAnexo",
+      "accion": "accionAnexo",
+      "camion": {
+        "idVehiculo": 1,
+        "patente": "AAA111"
+      },
+      "acoplado": {
+        "idVehiculo": 2,
+        "patente": "BBB222"
+      },
+      "conductor": {
+        "dni": 34625172,
+        "nombre": "Mariano",
+        "apellido": "García"
+      },
+      "producto": {
+        "idProducto": 1,
+        "nombre": "nombreProducto",
+        "idTipoProducto": 1
+      },
+      "proveedor": {
+        "idProveedor": 1,
+        "nombre": "nombreProveedor"
+      },
+      "productor": {
+        "idProveedor": 1,
+        "nombre": "nombreProveedor"
+      },
+      "transportista": {
+        "idTransportista": 1,
+        "nombre": "nombreTransportista"
+      }
+    }
+  ],
+  "ingreso-egreso-anexo2": [
+    {
+      "idAnexo": 25350,
+      "fechaHoraIngreso": "2022-08-15T14:48:00",
+      "color": "Rojo",
+      "accion": "Abrir",
+      "camion": {
+        "idVehiculo": 3314,
+        "patente": "OPQ123"
+      },
+      "acoplado": {
+        "idVehiculo": 3315,
+        "patente": "MNL456"
+      },
+      "conductor": {
+        "idConductor": 1717,
+        "dni": 29444555,
+        "nombre": "ROMAN",
+        "apellido": "RIQUELME"
+      },
+      "producto": {
+        "idProducto": 4,
+        "nombre": "GAS OIL",
+        "idTipoProducto": 1
+      },
+      "proveedor": {
+        "idProveedor": 48,
+        "nombre": "BRAVO ENERGY SA"
+      },
+      "productor": {
+        "idProveedor": 48,
+        "nombre": "BRAVO ENERGY SA"
+      },
+      "transportista": {
+        "idTransportista": 74,
+        "nombre": "TRANSP GABELLI"
+      }
+    }
+  ],
+  "control-6-1": [
+    {
+      "idControl": 27,
+      "texto": "Cisternas vacías",
+      "idEtapa": 6,
+      "idTipoProducto": 1,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 1
+    },
+    {
+      "idControl": 28,
+      "texto": "Camión limpio después de descarga",
+      "idEtapa": 6,
+      "idTipoProducto": 1,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 2
+    }
+  ],
+  "anexo-25350": {
+    "idAnexo": 25350,
+    "nroAnexo": 24757,
+    "nroRemito": "77993311",
+    "fechaHoraIngreso": "2022-08-15T14:48:00",
+    "estado": "Desde ADO",
+    "camion": {
+      "idVehiculo": 3314,
+      "patente": "OPQ123"
+    },
+    "acoplado": {
+      "idVehiculo": 3315,
+      "patente": "MNL456"
+    },
+    "conductor": {
+      "idConductor": 1717,
+      "dni": 29444555,
+      "nombre": "ROMAN",
+      "apellido": "RIQUELME"
+    },
+    "producto": {
+      "idProducto": 4,
+      "nombre": "GAS OIL",
+      "idTipoProducto": 1
+    },
+    "proveedor": {
+      "idProveedor": 48,
+      "nombre": "BRAVO ENERGY SA"
+    },
+    "productor": {
+      "idProveedor": 48,
+      "nombre": "BRAVO ENERGY SA"
+    },
+    "transportista": {
+      "idTransportista": 74,
+      "nombre": "TRANSP GABELLI"
+    },
+    "idDestinatario": 1,
+    "idUnidadMedida": 2,
+    "cantSegunRemito": 17500,
+    "rechazado": 0,
+    "copiasImpresas": 0,
+    "historialEstados": [
+      {
+        "idHistorialEstado": 149311,
+        "fechaHora": "2022-08-15T14:50:24.76",
+        "idUsuario": 62,
+        "idAnexo": 25350,
+        "idEstado": 2,
+        "idEtapa": 1,
+        "idEstadoAnterior": 1,
+        "idEtapaAnterior": 1,
+        "observacion": "Precinto violado ahora sí",
+        "notificado": 1
+      },
+      {
+        "idHistorialEstado": 149312,
+        "fechaHora": "2022-08-15T14:51:25.62",
+        "idUsuario": 62,
+        "idAnexo": 25350,
+        "idEstado": 3,
+        "idEtapa": 1,
+        "idEstadoAnterior": 2,
+        "idEtapaAnterior": 1,
+        "observacion": "revisar nuevamente precintos",
+        "notificado": 0
+      }
+    ],
+    "valorControls": [
+      {
+        "idValorControl": 758719,
+        "valor": "sí",
+        "idControl": 1,
+        "control": {
+          "idControl": 1,
+          "texto": "Existen precintos",
+          "idEtapa": 1,
+          "idTipoProducto": 1,
+          "idTipoControl": 1,
+          "rechazoImplicito": true,
+          "valorRechazoImplicito": "no",
+          "orden": 1
+        }
+      },
+      {
+        "idValorControl": 758720,
+        "valor": "sí",
+        "idControl": 8,
+        "control": {
+          "idControl": 8,
+          "texto": "Camión limpio antes de descarga",
+          "idEtapa": 1,
+          "idTipoProducto": 1,
+          "idTipoControl": 1,
+          "rechazoImplicito": true,
+          "valorRechazoImplicito": "no",
+          "orden": 6
+        }
+      },
+      {
+        "idValorControl": 758721,
+        "valor": "sí",
+        "idControl": 2,
+        "control": {
+          "idControl": 2,
+          "texto": "Posee Catalizador/Arresta llamas",
+          "idEtapa": 1,
+          "idTipoProducto": 1,
+          "idTipoControl": 1,
+          "rechazoImplicito": true,
+          "valorRechazoImplicito": "no",
+          "orden": 2
+        }
+      },
+      {
+        "idValorControl": 758722,
+        "valor": "no",
+        "idControl": 9,
+        "control": {
+          "idControl": 9,
+          "texto": "Transporta pasajeros",
+          "idEtapa": 1,
+          "idTipoProducto": 1,
+          "idTipoControl": 1,
+          "rechazoImplicito": true,
+          "valorRechazoImplicito": "sí",
+          "orden": 7
+        }
+      },
+      {
+        "idValorControl": 758723,
+        "valor": "sí",
+        "idControl": 3,
+        "control": {
+          "idControl": 3,
+          "texto": "Posee matafuegos",
+          "idEtapa": 1,
+          "idTipoProducto": 1,
+          "idTipoControl": 1,
+          "rechazoImplicito": true,
+          "valorRechazoImplicito": "no",
+          "orden": 3
+        }
+      },
+      {
+        "idValorControl": 758724,
+        "valor": "sí",
+        "idControl": 4,
+        "control": {
+          "idControl": 4,
+          "texto": "Camión estanco (sin pérdidas)",
+          "idEtapa": 1,
+          "idTipoProducto": 1,
+          "idTipoControl": 1,
+          "rechazoImplicito": true,
+          "valorRechazoImplicito": "no",
+          "orden": 8
+        }
+      },
+      {
+        "idValorControl": 758725,
+        "valor": "sí",
+        "idControl": 6,
+        "control": {
+          "idControl": 6,
+          "texto": "Chofer posee vestimenta adecuada",
+          "idEtapa": 1,
+          "idTipoProducto": 1,
+          "idTipoControl": 1,
+          "rechazoImplicito": true,
+          "valorRechazoImplicito": "no",
+          "orden": 4
+        }
+      },
+      {
+        "idValorControl": 758726,
+        "valor": "sí",
+        "idControl": 10,
+        "control": {
+          "idControl": 10,
+          "texto": "Chofer calificado",
+          "idEtapa": 1,
+          "idTipoProducto": 1,
+          "idTipoControl": 1,
+          "rechazoImplicito": true,
+          "valorRechazoImplicito": "no",
+          "orden": 9
+        }
+      },
+      {
+        "idValorControl": 758727,
+        "valor": "sí",
+        "idControl": 7,
+        "control": {
+          "idControl": 7,
+          "texto": "Algún precinto violado",
+          "idEtapa": 1,
+          "idTipoProducto": 1,
+          "idTipoControl": 1,
+          "rechazoImplicito": true,
+          "valorRechazoImplicito": "sí",
+          "orden": 5
+        }
+      },
+      {
+        "idValorControl": 758728,
+        "valor": "sí",
+        "idControl": 11,
+        "control": {
+          "idControl": 11,
+          "texto": "Camión habilitado",
+          "idEtapa": 1,
+          "idTipoProducto": 1,
+          "idTipoControl": 1,
+          "rechazoImplicito": true,
+          "valorRechazoImplicito": "no",
+          "orden": 10
+        }
+      }
+    ]
+  },
+  "control-1-2": [
+    {
+      "idControl": 33,
+      "texto": "Posee matafuegos",
+      "idEtapa": 1,
+      "idTipoProducto": 2,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 3
+    },
+    {
+      "idControl": 35,
+      "texto": "Chofer posee vestimenta adecuada",
+      "idEtapa": 1,
+      "idTipoProducto": 2,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 4
+    },
+    {
+      "idControl": 34,
+      "texto": "Camión estanco (sin pérdidas)",
+      "idEtapa": 1,
+      "idTipoProducto": 2,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 8
+    },
+    {
+      "idControl": 37,
+      "texto": "Chofer calificado",
+      "idEtapa": 1,
+      "idTipoProducto": 2,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 9
+    },
+    {
+      "idControl": 38,
+      "texto": "Camión habilitado",
+      "idEtapa": 1,
+      "idTipoProducto": 2,
+      "idTipoControl": 1,
+      "rechazoImplicito": 1,
+      "valorRechazoImplicito": "no",
+      "orden": 10
+    }
+  ],
+  "anexo-controles-6": {
+    "idAnexo": 25350,
+    "observaciones": "yrtyry",
+    "idUsuario": 3,
+    "valorControles": [
+      {
+        "idControl": 27,
+        "valor": "sí"
+      },
+      {
+        "idControl": 28,
+        "valor": "sí"
+      }
+    ]
+  },
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "admin",
+      "nombre": "Administrador",
+      "apellido": "Sistema",
+      "roles": "Descargadero"
+    },
+    {
+      "id": 2,
+      "username": "andresmza",
+      "nombre": "Andrés",
+      "apellido": "Ortega",
+      "roles": "Administrador - ADO - Báscula - Consultas - Descargadero - Descargadero Cruz de Piedra - Ingreso/Egreso - Laboratorio"
+    },
+    {
+      "id": 3,
+      "username": "amanzur",
+      "nombre": "Anibal",
+      "apellido": "Manzur",
+      "roles": "Consultas"
+    },
+    {
+      "id": 4,
+      "username": "mgarcia",
+      "nombre": "Mariano",
+      "apellido": "García",
+      "roles": "Ingreso/Egreso"
+    }
+  ],
+  "reporteCamionesRechazados": [
+    {
+      "idAnexo": 25337,
+      "nroAnexo": 24750,
+      "nroTicket": 1,
+      "fechaIngreso": "03-09-2021",
+      "conductor": "FUEL OIL",
+      "patente": "ABC 123",
+      "producto": "FUEL OIL",
+      "nroRemito": "0002R00012274",
+      "etapa": "Descargadero",
+      "obsEtapaRechazo": "Observaciones etapa rechazo ejemplo 1"
+    },
+    {
+      "idAnexo": 25338,
+      "nroAnexo": 24751,
+      "nroTicket": 2,
+      "fechaIngreso": "04-10-2021",
+      "conductor": "FUEL OIL",
+      "patente": "ABC 124",
+      "producto": "FUEL OIL",
+      "nroRemito": "0002R00012275",
+      "etapa": "Laboratorio",
+      "obsEtapaRechazo": "Observaciones etapa rechazo ejemplo 2"
+    },
+    {
+      "idAnexo": 25339,
+      "nroAnexo": 24752,
+      "nroTicket": 3,
+      "fechaIngreso": "05-11-2021",
+      "conductor": "FUEL OIL",
+      "patente": "ABC 125",
+      "producto": "GAS OIL",
+      "nroRemito": "0002R00012276",
+      "etapa": "Pesada Inicial",
+      "obsEtapaRechazo": "Obs corta ej 3"
+    },
+    {
+      "idAnexo": 25340,
+      "nroAnexo": 24753,
+      "nroTicket": 4,
+      "fechaIngreso": "06-12-2021",
+      "conductor": "FUEL OIL",
+      "patente": "ABC 126",
+      "producto": "FUEL OIL",
+      "nroRemito": "0002R00012277",
+      "etapa": "Pesada Final",
+      "obsEtapaRechazo": "Observaciones etapa rechazo ejemplo 4"
+    },
+    {
+      "idAnexo": 25341,
+      "nroAnexo": 24754,
+      "nroTicket": 5,
+      "fechaIngreso": "07-01-2022",
+      "conductor": "FUEL OIL",
+      "patente": "ABC 127",
+      "producto": "GAS OIL",
+      "nroRemito": "0002R00012278",
+      "etapa": "Descargadero",
+      "obsEtapaRechazo": "Observaciones etapa rechazo ejemplo 5"
+    },
+    {
+      "idAnexo": 25342,
+      "nroAnexo": 24755,
+      "nroTicket": 6,
+      "fechaIngreso": "03-09-2021",
+      "conductor": "FUEL OIL",
+      "patente": "ABC 123",
+      "producto": "FUEL OIL",
+      "nroRemito": "0002R00012274",
+      "etapa": "Descargadero",
+      "obsEtapaRechazo": "Observaciones etapa rechazo ejemplo 6"
+    },
+    {
+      "idAnexo": 25343,
+      "nroAnexo": 24756,
+      "nroTicket": 7,
+      "fechaIngreso": "04-10-2021",
+      "conductor": "FUEL OIL",
+      "patente": "ABC 124",
+      "producto": "FUEL OIL",
+      "nroRemito": "0002R00012275",
+      "etapa": "Laboratorio",
+      "obsEtapaRechazo": "Observaciones etapa rechazo ejemplo 7"
+    },
+    {
+      "idAnexo": 25344,
+      "nroAnexo": 24757,
+      "nroTicket": 8,
+      "fechaIngreso": "05-11-2021",
+      "conductor": "FUEL OIL",
+      "patente": "ABC 125",
+      "producto": "GAS OIL",
+      "nroRemito": "0002R00012276",
+      "etapa": "Pesada Inicial",
+      "obsEtapaRechazo": "Obs corta ej 8"
+    },
+    {
+      "idAnexo": 25345,
+      "nroAnexo": 24758,
+      "nroTicket": 9,
+      "fechaIngreso": "06-12-2021",
+      "conductor": "FUEL OIL",
+      "patente": "ABC 126",
+      "producto": "FUEL OIL",
+      "nroRemito": "0002R00012277",
+      "etapa": "Pesada Final",
+      "obsEtapaRechazo": "Observaciones etapa rechazo ejemplo 9"
+    },
+    {
+      "idAnexo": 25346,
+      "nroAnexo": 24759,
+      "nroTicket": 10,
+      "fechaIngreso": "07-01-2022",
+      "conductor": "FUEL OIL",
+      "patente": "ABC 127",
+      "producto": "GAS OIL",
+      "nroRemito": "0002R00012278",
+      "etapa": "Descargadero",
+      "obsEtapaRechazo": "Observaciones etapa rechazo ejemplo 10"
+    }
+  ],
+  "reporteConductores": [
+    {
+      "idAnexo": 1
+    }
+  ],
+  "reporteCamionesYCombustibles": [
+    {
+      "idAnexo": 1
+    }
+  ]
+}
